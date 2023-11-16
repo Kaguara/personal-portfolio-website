@@ -30,9 +30,16 @@ export default function Home() {
       title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+        <main>
+          <div className="container" background-color='#D9D9D9'>
+            <Heading as="h1" className="hero__title" color="black">
+              What type of product leader am I?
+            </Heading>
+            <Heading as="h1" className="hero__title" color="black">
+              What have I built?
+           </Heading>
+          </div>
+        </main>
     </Layout>
   );
 }
