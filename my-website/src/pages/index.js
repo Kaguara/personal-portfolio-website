@@ -29,14 +29,14 @@ export default function Home() {
     <Layout
       title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
+      {/*<HomepageHeader />*/}
         <main>
           <div className="container" background-color='#D9D9D9'>
             <Heading as="h1" className="hero__title" color="black">
-              What type of product leader am I?
+              <a href="./blog">What type of product leader am I?</a>
             </Heading>
             <Heading as="h1" className="hero__title" color="black">
-              What have I built?
+              <a href="./blog">What have I built?</a> 
            </Heading>
           </div>
         </main>
