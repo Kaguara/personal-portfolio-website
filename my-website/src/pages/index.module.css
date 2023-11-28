@@ -25,3 +25,13 @@
   align-items: center;
   justify-content: center;
 }
+
+.home_page_container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /*vertical alignment*/
+  justify-content: flex-start; /*horizontal alignment*/
+  cursor: default;
+  padding: 25px 50px 25px 100px; /*top, right, bottom, left*/
+  backound-color: #FF7F7F;
+}

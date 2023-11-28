@@ -31,7 +31,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       {/*<HomepageHeader />*/}
         <main>
-          <div className="container" background-color='#D9D9D9'>
+          <div className={styles.home_page_container} >
             <Heading as="h1" className="hero__title" color="black">
               <a href="./blog">What type of product leader am I?</a>
             </Heading>
