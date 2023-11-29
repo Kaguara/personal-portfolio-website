@@ -89,7 +89,7 @@ const config = {
         style: 'light',
         links: [
           {
-            title: 'Links',
+            title: ' ',
             items: [
               {
                 label: 'LinkedIn',
