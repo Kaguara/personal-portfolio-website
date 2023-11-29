@@ -32,7 +32,7 @@ export default function Home() {
       {/*<HomepageHeader />*/}
         <main>
           <div className={styles.home_page_container} >
-            <Heading as="h1" className="hero__title" color="black">
+            <Heading as="h1" className="hero__title" color="black"> 
               <a href="./blog">What type of product leader am I?</a>
             </Heading>
             <Heading as="h1" className="hero__title" color="black">

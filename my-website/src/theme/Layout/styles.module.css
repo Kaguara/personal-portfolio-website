@@ -4,10 +4,13 @@ body {
 }
 
 .mainWrapper {
-  flex: auto; /* syntax => flex: flex-grow flex-shrink flex-basis|auto|initial|inherit;*/
   display: flex;
+  flex: auto; /* syntax => flex: flex-grow flex-shrink flex-basis|auto|initial|inherit;*/
   flex-direction: column;
-  background-color: #90EE90; /*TODO: please delete, OR, customize color to Figma designs*/
+  align-items: stretch; /*vertical alignment, x-axis if flex direction is column*/
+  justify-content: center; /*horizontal alignment, y-axis if flex-direction: column*/
+  background-color: #f5f6f7; /*Docusaurus theme color, slight diff from Figma original color*/
+  
 }
 
 /* Docusaurus-specific utility class */
