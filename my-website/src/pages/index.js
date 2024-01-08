@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import homePageSelfPotraitUrl from './assets/self_potrait_for_personal_website.png';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -38,6 +39,7 @@ export default function Home() {
             <Heading as="h1" className="hero__title" color="black">
               <a href="./blog" style={{color: 'black', fontSize: '70px'}}>What have I built?</a> 
            </Heading>
+           <img src={homePageSelfPotraitUrl} alt="Self potrait" />
           </div>
         </main>
     </Layout>
