@@ -33,10 +33,10 @@ export default function Home() {
         <main>
           <div className={styles.home_page_container} >
             <Heading as="h1" className="hero__title {color: #000; font-size: 70px;}" color="black"> 
-              <a href="./blog">What type of product leader am I?</a>
+              <a href="./blog" style={{color: 'black', fontSize: '70px'}}>What type of product leader am I?</a>
             </Heading>
             <Heading as="h1" className="hero__title" color="black">
-              <a href="./blog">What have I built?</a> 
+              <a href="./blog" style={{color: 'black', fontSize: '70px'}}>What have I built?</a> 
            </Heading>
           </div>
         </main>

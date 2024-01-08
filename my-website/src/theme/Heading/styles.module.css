@@ -16,6 +16,7 @@ See https://twitter.com/JoshWComeau/status/1332015868725891076
   padding-left: 0.5rem;
   transition: opacity var(--ifm-transition-fast);
   user-select: none;
+  color: mediumvioletred;
 }
 
 :global(.hash-link::before) {
@@ -29,4 +30,8 @@ See https://twitter.com/JoshWComeau/status/1332015868725891076
 
 .h1 {
   font-size: 100px;
+}
+
+.h1_home_page {
+  font-size: 200px;
 }
