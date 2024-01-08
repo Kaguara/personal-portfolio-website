@@ -101,7 +101,7 @@ const config = {
               },
               {
                 label: 'Resume (CV)',
-                href: 'https://drive.google.com/file/d/11_wX5CijRe0xBRk_xyaXMZfASj7XUovJ/view?usp=sharing',
+                href: 'https://drive.google.com/file/d/1zPkE2kVIe9vbLZbeE5AECUcB1Z6O1dHV/view?usp=sharing',
               },
             ],
           },

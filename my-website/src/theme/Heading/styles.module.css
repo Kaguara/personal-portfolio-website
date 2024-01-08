@@ -26,3 +26,7 @@ See https://twitter.com/JoshWComeau/status/1332015868725891076
 :global(*:hover > .hash-link) {
   opacity: 1;
 }
+
+.h1 {
+  font-size: 100px;
+}
